@@ -1,0 +1,21 @@
+{
+  "name": " Tagger Bot",
+  "description": "BlackSpace Rəsmi Tağ Botu.",
+  "env": {
+    "TOKEN": {
+      "description": "bot token girin.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "value": ""
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}
