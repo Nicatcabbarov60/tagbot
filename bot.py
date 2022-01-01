@@ -32,9 +32,9 @@ async def cancel(event):
 async def start(event):
   await event.reply("**ΒЅͲαɠεɾΒσʈ**, Qrupda və ya kanalda demək olar ki, hər bir üzvü qeyd edə bilərəm 🤓\nDaha ətraflı məlumat üçün **/help**'yazın.",
                     buttons=(
-                      [Button.url('➕ Gurup Eklə', 'https://t.me/BStaggerbot?startgroup=a'),
-                      Button.url('⚕️ Support', 'https://t.me/BLACK_MMC'),
-                      Button.url('👨🏻‍💻 Sahibim', 'https://t.me/F_r_o_z_e_d_i')]
+                      [Button.url('➕ Gurupa Sal', 'https://t.me/BStaggerbot?startgroup=a'),
+                      Button.url('⚕️ Grups', 'https://t.me/Cat_House_Gurups'),
+                      Button.url('👨🏻‍💻 Sahibim', 'https://t.me/K_E_R_E_M_D_I')]
                     ),
                     link_preview=False
                    )
@@ -43,9 +43,9 @@ async def help(event):
   helptext = "**ΒЅͲαɠεɾΒσʈ'un Köməl Menyusu**\n\nƏmirlər: /tag \nBu əmri başqalarına demək istədiyiniz mətnlə birlikdə istifadə edə bilərsiniz. \nEmoji tag: /etag'Bu əmri cavab olaraq istifadə edə bilərsiniz. istənilən mesaj Bot istifadəçiləri cavab mesajına işarələyəcək"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕ Gurup Eklə', 'https://t.me/BStaggerbot?startgroup=a'),
-                       Button.url('⚕️ Support', 'https://t.me/BLACK_MMC'),
-                      Button.url('👨🏻‍💻 Sahibim', 'https://t.me/F_r_o_z_e_d_i')]
+                      [Button.url('➕ Gurupa sal', 'https://t.me/BStaggerbot?startgroup=a'),
+                       Button.url('⚕️ Grups', 'https://t.me/Cat_House_Gurups'),
+                      Button.url('👨🏻‍💻 Sahibim', 'https://t.me/K_E_R_E_M_D_I')]
                     ),
                     link_preview=False
                    )
@@ -85,7 +85,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Durdum 🤓")
+        await event.respond("Durdum🌹")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, f"{usrtxt}\n\n{msg}")
@@ -103,7 +103,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Durdum 🤓")
+        await event.respond("Durdum🌹")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -145,7 +145,7 @@ async def etag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emj)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Durdum 🤓")
+        await event.respond("Durdum🌹")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, f"{usrtxt}\n\n{msg}")
@@ -163,7 +163,7 @@ async def etag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emj)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Durdum 🤓")
+        await event.respond("Durdum🌹")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -171,5 +171,5 @@ async def etag(event):
         usrnum = 0
         usrtxt = ""
 
-print(">> Bot rahat çalışır narahat olmayın 🚀 @BLACK_MMC Məlumat ala bilərsiniz <<")
+print(">> Bot rahat çalışır narahat olmayın 🚀  Məlumat almaga yer yoxdu <<")
 client.run_until_disconnected()
