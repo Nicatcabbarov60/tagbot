@@ -30,7 +30,7 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**ΒЅͲαɠεɾΒσʈ**, Qrupda və ya kanalda demək olar ki, hər bir üzvü qeyd edə bilərəm 🤓\nDaha ətraflı məlumat üçün **/help**'yazın.",
+  await event.reply("**Dizertagers**, Qrupda və ya kanalda demək olar ki, hər bir üzvü qeyd edə bilərəm 🌹\nDaha ətraflı məlumat üçün **/help**'yazın.",
                     buttons=(
                       [Button.url('➕ Gurupa Sal', 'https://t.me/BStaggerbot?startgroup=a'),
                       Button.url('⚕️ Grups', 'https://t.me/Cat_House_Gurups'),
