@@ -1,6 +1,6 @@
 {
   "name": " Tagger Bot",
-  "description": "BlackSpace Rəsmi Tağ Botu.",
+  "description": "Keremin Rəsmi Tağ Botu.",
   "env": {
     "TOKEN": {
       "description": "bot token girin.",
